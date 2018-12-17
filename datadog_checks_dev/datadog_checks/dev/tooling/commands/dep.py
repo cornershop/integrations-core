@@ -6,7 +6,7 @@ import os
 import click
 from six import iteritems, itervalues
 
-from .utils import (
+from .console import (
     CONTEXT_SETTINGS, abort, echo_failure, echo_info, echo_success, echo_waiting, echo_warning
 )
 from ..constants import get_root

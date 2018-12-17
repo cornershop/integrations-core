@@ -4,7 +4,7 @@
 import click
 from six import iteritems
 
-from ..utils import CONTEXT_SETTINGS, abort, echo_failure, echo_info
+from ..console import CONTEXT_SETTINGS, abort, echo_failure, echo_info
 from ...dep import collect_packages
 from ....utils import get_next
 
